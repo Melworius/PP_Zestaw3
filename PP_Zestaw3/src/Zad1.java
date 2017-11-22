@@ -61,9 +61,10 @@ public class Zad1 {
 		}
 		System.out.println("Mniejszych od śr.: " + under);
 		System.out.println("Większych od śr.: " + over);
+		System.out.print("[");
 		for(i=9; i>=0; i--) {
-			System.out.println(Arrays.toString(tab));
+			System.out.print(tab[i] + ", ");
 		}
-		
+		System.out.print("]");
 	}
 }	
